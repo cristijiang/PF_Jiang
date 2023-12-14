@@ -10,7 +10,6 @@
   background: linear-gradient(to right, #F5E8DC, #E3CBB8);
   height: 100px;
   padding: 10px;
-  box-sizing: border-box;
   top: 0;
   left: 0;
   right: 0;
@@ -27,12 +26,14 @@
     .logo {
       max-width: 70%;
       max-height: 100%;
-      transition: transform 0.3s ease-in-out; // Agrega una transición suave a la propiedad 'transform'
+      transition: transform 0.3s ease-in-out; 
       
       &:hover {
         transform: scale(1.1); 
       }
     }
+
+  
 
     .list-indice {
       display: flex;
