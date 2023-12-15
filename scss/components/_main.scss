@@ -1,5 +1,4 @@
 
-
 // _variables.scss
 $colors: (
   primary: #f9ebdb,
@@ -22,6 +21,7 @@ $colors: (
 
 main {
   margin-top: 0px;
+
   .container > div {
     margin: 1rem;
   }
@@ -36,6 +36,7 @@ main {
   }
 
   .container-fluid {
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 20px;
 
@@ -235,4 +236,8 @@ main {
       font-size: 0.8rem;
     }
   }
+}
+
+main .title-h1 {
+  margin-bottom: 0;
 }

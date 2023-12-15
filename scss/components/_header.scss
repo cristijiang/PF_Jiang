@@ -5,6 +5,7 @@
   align-items: center;
 }
 
+
 .menu-nav {
   position: fixed;
   background: linear-gradient(to right, #F5E8DC, #E3CBB8);
@@ -80,4 +81,8 @@
       }
     }
   }
+}
+
+main .title-h1 {
+  margin-bottom: 0;
 }
